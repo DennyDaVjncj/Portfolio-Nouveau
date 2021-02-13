@@ -1,23 +1,22 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import logo from './logo.svg';
 
 const Header = () => {
     return (
         <Jumbotron>
-            <h1>Header</h1>
-            <img src={logo} className="App-logo" alt="logo" />
+            <h1>Welcome to mine portfolio!</h1>
+            <h3>feel free to offer a 6 fig position</h3>
             <p>
-                Edit <code>src/App.js</code> and save to reload.
-        </p>
+                Github:
+            </p>
             <a
-                className="App-link"
-                href="https://reactjs.org"
+                className="Github"
+                href="https://https://github.com/DennyDaVjncj"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="external link"
             >
-                Learn React
-        </a>
+                Denny da Vjncj
+            </a>
         </Jumbotron>
     )
 }
