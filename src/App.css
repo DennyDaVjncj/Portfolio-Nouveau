@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+/* consider having mltpl stylesheets for each page of site */
+
+/* this class sets the position for the text content on page */
+.centerContent {
+  margin-top:150px;    
+  border: solid 5px pink;
+  padding:9px;
+  color:white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* this class handles how the image is to render */
+.brownGoku{
+  width: 66%;
+  height: 66%;
+  border:solid 5px silver;
+  margin-top  :25%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* this RULE is used for "importing" a cool background image */
+body{
+  background:url(https://i.pinimg.com/564x/63/33/60/633360582af27d601bef353c9aba06b3.jpg);    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1{
+  color:white;
+  text-decoration:line-through;
+  top:5%;
 }
 
-.App-link {
-  color: #61dafb;
+nav{
+  background:url(https://i.pinimg.com/564x/63/33/60/633360582af27d601bef353c9aba06b3.jpg);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+  margin:auto;    
+}
+
+.form-group{
+  width: 45%;
+}
+
+/*Contact*/
+/* Tried to change the color of the link, no avail */
+.cardLink{
+  background-color:white;
+}
+
+.floatRight{
+  float: right;
+}
+
+.a{
+  border: 3px solid white;
+}
+
+.container{
+  top:auto;
+}
+
+.contactForm{
+  margin-top:9%;
+}
+
+.strangeFruit{
+  margin-bottom:10rem;
+}
+.borderSoChic{
+  border: solid 9px black;
+
+}
+.translucentBlackground{
+  background-color:white;
+  opacity: .4;
 }
