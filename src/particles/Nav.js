@@ -26,6 +26,12 @@ const Nav = () => {
               <a className="dropdown-item" href="https://dennydavjncj.github.io/caloriesToCalisthenics/" target="_blank">Calories to Calisthenics</a>
               <div className="dropdown-divider"></div>
               <a className="dropdown-item" href="https://peace-mind.herokuapp.com/" target="_blank">2nd class project (20-21 bootcamp-fsf-pt)</a>
+              <div className="dropdown-divider"></div>
+              <a className="dropdown-item" href="https://github.com/DennyDaVjncj/README.md-genPro" target="_blank"></a>
+              <div className="dropdown-divider"></div>
+              <a className="dropdown-item" href="https://agile-headland-12732.herokuapp.com/" target="_blank"></a>
+              <div className="dropdown-divider"></div>
+              <a className="dropdown-item" href="https://stormy-tundra-80286.herokuapp.com/?id=600ccffa14955b0015415ea5" target="_blank"></a>
             </div>
           </li>
         </ul>
