@@ -21,7 +21,7 @@ const Nav = () => {
               Portfolio
               </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="https://theNewCool.org" target="_blank">the New Cool: eComm site</a>
+              <a href='https://theNewCool.org' className="dropdown-item" target="_blank">the New Cool: eComm site</a>
               <div className="dropdown-divider"></div>
               <a className="dropdown-item" href="https://dennydavjncj.github.io/caloriesToCalisthenics/" target="_blank">Calories to Calisthenics</a>
               <div className="dropdown-divider"></div>
