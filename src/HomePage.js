@@ -8,15 +8,7 @@ const projects = [{
 
 const HomePage = () => {
     return (
-        <Container>
-            {/* <Row md={4}> */}
-            {/* <Col>first project</Col>
-                <Col md={4}>second project</Col>
-                <Col>3 of 3</Col> */}
-            {/* {projects.map(project=>(
-                    <Col key={project.id}>{project.title}</Col>
-                ))} */}
-            {/* </Row> */}
+        <Container>            
             <Container>
                 <Row>
                     <Col md={12}>
@@ -32,7 +24,7 @@ const HomePage = () => {
 
                 <div className="col-8 centerContent">
                     <h5>
-                        "Of my most cherished traits, the affinity for collaboration & zest for enterprise are fan favorites! I've taken to progamming as a passion/serious-professional ambition due to the creative nature involved in programmatically finding solutions."
+                        "Of my most cherished traits, the affinity for collaboration and zest for enterprise are fan favorites! I've taken to progamming as a passion/serious-professional ambition due to the creative nature involved in programmatically finding solutions."
               </h5>
                 </div>
             </div>
