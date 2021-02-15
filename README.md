@@ -15,13 +15,3 @@
 * A `Footer` component that appears on multiple pages
 
 * Update GitHub profile with pinned repositories featuring those same projects
-
-### Updated Portfolio
-
-Your updated site should still have all of the content it previously had:
-
-* Your name
-
-* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
-
-* A link to a PDF of your resume with updated projects
