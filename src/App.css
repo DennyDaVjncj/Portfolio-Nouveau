@@ -8,18 +8,9 @@
   color:white;
 }
 
-/* this class handles how the image is to render */
-.brownGoku{
-  width: 66%;
-  height: 66%;
-  border:solid 5px silver;
-  margin-top  :25%;
-}
-
-/* this RULE is used for "importing" a cool background image */
 body{
   background:url(https://i.pinimg.com/564x/63/33/60/633360582af27d601bef353c9aba06b3.jpg);    
-}
+}/*set vh for diff componants on page*/
 
 h1{
   color:white;
@@ -27,7 +18,7 @@ h1{
   top:5%;
 }
 
-nav{
+header{
   background:url(https://i.pinimg.com/564x/63/33/60/633360582af27d601bef353c9aba06b3.jpg);
 }
 

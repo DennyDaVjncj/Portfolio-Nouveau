@@ -1,5 +1,5 @@
 import './App.css';
-import Nav from './particles/Nav';
+import Header from './particles/Header';
 import HomePage from './HomePage';
 import Contact from "./Contact";
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
@@ -7,13 +7,12 @@ import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 function App() {
   return (
     <Router basename="/">
-      <Nav />
+      <Header/>
       <Switch>
-        <Route exact path='/' component={HomePage} />
-        <Route exact path='/contact' component={Contact} />
+        <Route exact path='/' component={HomePage}/>
+        <Route exact path='/contact' component={Contact}/>
       </Switch>
     </Router>
   );
 }
 export default App;
-//this is where routing will be handled
