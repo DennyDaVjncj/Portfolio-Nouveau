@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.css';//what is unique about this file, seems to be final key in rendering
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
