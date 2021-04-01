@@ -57,18 +57,6 @@ export default function ProminentAppBar() {
           </IconButton>
         </Toolbar>
       </AppBar>
-      <Container maxWidth='lg'>
-        <Grid container>
-          <Grid item xs={12}>
-            <img src="https://pbs.twimg.com/media/EBxrWWHXkAIU9-N.jpg"/>
-            <Paper>
-              <Typography variant='h5' gutterBottom>
-                My name is Dennis Desmornes, I'm a recent graduate of the UCF Full Stack Web Development Program! I hope the fact shines through on this page alone
-              </Typography>
-            </Paper>
-          </Grid>
-        </Grid>
-      </Container>
     </div>
   );
 }
