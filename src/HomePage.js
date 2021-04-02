@@ -7,11 +7,15 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import {blue, red} from '@material-ui/core/colors'
+import Paper from '@material-ui/core/Paper'
 
 const useStyles=makeStyles({
     root:{
-        maxWidth:666,
-        // padding:45
+        maxWidth:600,
+        backgroundColor:"red",
+        marginLeft:450.55
+        
     },
     media:{
         height:499
@@ -21,31 +25,35 @@ export default function MediaCard(){
     const classes=useStyles();
 
 return (
-    <Card className={classes.root}display='flex'justify='center'alignItems='center'>
-      <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Denny da Vjncj (Dennis Desmornes)
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Software engineering is the perfect combination in monetizing creativity...
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
-      </CardActions>
-    </Card>
+  <>
+    <Paper elevation={3}>
+      <Card className={classes.root}>
+        <CardActionArea>
+          <CardMedia
+            className={classes.media}
+            image="/static/images/cards/contemplative-reptile.jpg"
+            title="Contemplative Reptile"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+              Denny da Vjncj (Dennis Desmornes)
+            </Typography>
+            <Typography variant="body2" color="textSecondary" component="p">
+              Software engineering is the perfect combination in monetizing creativity...
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button size="small" color="primary">
+            Portfolio
+          </Button>
+          <Button size="small" color="primary">
+            Contact
+          </Button>
+        </CardActions>
+      </Card>
+    </Paper>
+  </>
   );
 }
 
