@@ -10,7 +10,8 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles=makeStyles({
     root:{
-        maxWidth:666,        
+        maxWidth:666,
+        // padding:45
     },
     media:{
         height:499
@@ -20,7 +21,7 @@ export default function MediaCard(){
     const classes=useStyles();
 
 return (
-    <Card className={classes.root}>
+    <Card className={classes.root}display='flex'justify='center'alignItems='center'>
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -29,11 +30,10 @@ return (
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            Denny da Vjncj (Dennis Desmornes)
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            Software engineering is the perfect combination in monetizing creativity...
           </Typography>
         </CardContent>
       </CardActionArea>
