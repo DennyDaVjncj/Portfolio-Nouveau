@@ -7,15 +7,15 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import {blue, red} from '@material-ui/core/colors'
+import {blue,red} from '@material-ui/core/colors'
 import Paper from '@material-ui/core/Paper'
+import photo from './portfolioPic.jpg'
 
 const useStyles=makeStyles({
     root:{
-        maxWidth:600,
-        backgroundColor:"red",
-        marginLeft:450.55
-        
+        opacity:.3,
+        maxWidth:500,
+        marginLeft:450.55        
     },
     media:{
         height:499
@@ -25,14 +25,13 @@ export default function MediaCard(){
     const classes=useStyles();
 
 return (
-  <>
-    <Paper elevation={3}>
-      <Card className={classes.root}>
+  <div className={classes.root}>
+    <Paper variant='elevation'>
+      <Card>
         <CardActionArea>
           <CardMedia
             className={classes.media}
-            image="/static/images/cards/contemplative-reptile.jpg"
-            title="Contemplative Reptile"
+            image={photo}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
@@ -53,7 +52,7 @@ return (
         </CardActions>
       </Card>
     </Paper>
-  </>
+  </div>
   );
 }
 
