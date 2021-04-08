@@ -10,12 +10,16 @@ import Typography from '@material-ui/core/Typography';
 import {blue,red} from '@material-ui/core/colors'
 import Paper from '@material-ui/core/Paper'
 import photo from './portfolioPic.jpg'
+import {Link} from 'react-router-dom'
 
 const useStyles=makeStyles({
     root:{
         opacity:.3,
         maxWidth:500,
         marginLeft:450.55        
+    },
+    cardContent:{
+        backgroundColor:blue
     },
     media:{
         height:499
@@ -44,7 +48,9 @@ return (
         </CardActionArea>
         <CardActions>
           <Button size="small" color="primary">
-            Portfolio
+            <Link to='/contact'>
+              Get in touch!
+            </Link>
           </Button>
           <Button size="small" color="primary">
             Contact
