@@ -11,10 +11,12 @@ import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import 'fontsource-roboto';
+import {Link} from 'react-router-dom';
+import Button from '@material-ui/core/Button'
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1,
+    flexGrow: 1
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -46,9 +48,13 @@ export default function ProminentAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography className={classes.title} variant="h5" noWrap>
-            Mine Portfolio
-          </Typography>
+          <Button>
+            <Link to='/'>
+              <Typography className={classes.title} variant="h5" noWrap>
+                Mine Portfolio
+              </Typography>
+            </Link>
+          </Button>
           <IconButton aria-label="search" color="inherit">
             <SearchIcon />
           </IconButton>
@@ -57,18 +63,6 @@ export default function ProminentAppBar() {
           </IconButton>
         </Toolbar>
       </AppBar>
-      <Container maxWidth='lg'>
-        <Grid container>
-          <Grid item xs={12}>
-            <img src="https://pbs.twimg.com/media/EBxrWWHXkAIU9-N.jpg"/>
-            <Paper>
-              <Typography variant='h5' gutterBottom>
-                My name is Dennis Desmornes, I'm a recent graduate of the UCF Full Stack Web Development Program! I hope the fact shines through on this page alone
-              </Typography>
-            </Paper>
-          </Grid>
-        </Grid>
-      </Container>
     </div>
   );
 }
