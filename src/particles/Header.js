@@ -48,9 +48,9 @@ export default function ProminentAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          <Button>
+          <Button className={classes.title}variant='outlined'>
             <Link to='/'>
-              <Typography className={classes.title} variant="h5" noWrap>
+              <Typography variant="h5" noWrap>
                 Mine Portfolio
               </Typography>
             </Link>
