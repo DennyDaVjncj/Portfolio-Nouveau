@@ -54,7 +54,9 @@ return (
             </Link>
           </Button>
           <Button size="small" color="primary">
-            Le portfolio
+            <Link to='/portfolio'>
+              Le portfolio
+            </Link>
           </Button>
         </CardActions>
       </Card>
