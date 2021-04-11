@@ -11,6 +11,7 @@ import {blue,red} from '@material-ui/core/colors'
 import Paper from '@material-ui/core/Paper'
 import photo from './portfolioPic.jpg'
 import {Link} from 'react-router-dom'
+import AspectRatioSharpIcon from '@material-ui/icons/AspectRatioSharp';
 
 const useStyles=makeStyles({
     root:{
@@ -29,9 +30,9 @@ export default function MediaCard(){
     const classes=useStyles();
 
 return (
-  <div className={classes.root}>
+  <div className={classes.root}>    
     <Paper variant='elevation'>
-      <Card>
+      <Card>{/**place arrows && frame around cardComponent */}
         <CardActionArea>
           <CardMedia
             className={classes.media}

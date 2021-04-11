@@ -48,10 +48,10 @@ export default function ProminentAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          <Button className={classes.title}variant='outlined'>
+          <Button className={classes.title}variant='contained'>
             <Link to='/'>
               <Typography variant="h5" noWrap>
-                Mine Portfolio
+                le da Vjncj code
               </Typography>
             </Link>
           </Button>
