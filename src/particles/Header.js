@@ -48,7 +48,7 @@ export default function ProminentAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          <Button className={classes.title}variant='contained'>
+          <Button className={classes.title}variant='text'>
             <Link to='/'>
               <Typography variant="h5" noWrap>
                 le da Vjncj code
