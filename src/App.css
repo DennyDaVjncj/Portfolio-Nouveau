@@ -8,8 +8,7 @@
   color:white;
 }
 
-.Header{
-  opacity: 0.5;
+.Header{  
   background-color: white;
 }
 
@@ -54,7 +53,7 @@ header{
 }
 
 .contactForm{
-  margin-top:9%;
+  margin:9%;
 }
 
 .strangeFruit{
