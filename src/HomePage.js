@@ -57,6 +57,7 @@ return (
             <Link to='/portfolio'>
               Le portfolio
             </Link>
+            {/**include a link to my resume right next to portfolio link, give them viewing access only */}
           </Button>
         </CardActions>
       </Card>
