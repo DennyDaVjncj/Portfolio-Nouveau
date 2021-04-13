@@ -43,15 +43,15 @@ return (
               Denny da Vjncj (Dennis Desmornes)
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              Software engineering is the perfect combination in monetizing creativity...
+              Software engineering has become a serious passion & professional ambition due to the creative nature involved in finding solutions
             </Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
           <Button size="small" color="primary">
-            <Link to='/contact'>
-              Get in touch!
-            </Link>
+            <a href='mailto: daVjncjCode@gmail.com'>
+              email me!
+            </a>
           </Button>
           <Button size="small" color="primary">
             <Link to='/portfolio'>
@@ -64,14 +64,3 @@ return (
   </div>
   );
 }
-
-{/* <Card raised={true}>
-    <img src="https://pbs.twimg.com/media/EBxrWWHXkAIU9-N.jpg"/>
-</Card>
-<div style>
-    <Paper>
-        <Typography variant='h5' gutterBottom>
-            My name is Dennis Desmornes, I'm a recent graduate of the UCF Full Stack Web Development Program! I hope the fact shines through on this page alone
-        </Typography>
-    </Paper>
-</div> */}
