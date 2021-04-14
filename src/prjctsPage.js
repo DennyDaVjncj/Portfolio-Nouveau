@@ -22,3 +22,6 @@ let portfolio=()=>{
   </div>
 )}
 export default portfolio;
+{/**
+- consider 'pagination', cool ways to navigate from page to page
+*/}
