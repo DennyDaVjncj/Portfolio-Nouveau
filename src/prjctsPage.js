@@ -7,13 +7,21 @@ let portfolio=()=>{
     <Container maxWidth='sm'>
       <Grid container spacing={9}>
         <Grid item xs={6}>
-          <Paper>'hey, my name is denny da vjncj'</Paper>
+          <Paper>
+            'hey, my name is denny da vjncj'
+          </Paper>
         </Grid>
         <Grid item xs={6}>
-          <Paper>'hey, my name is denny da vjncj'</Paper>
+          <Paper>
+            'hey, my name is denny da vjncj'
+          </Paper>
+          {/**with image include a link to repo. consider use of card component to include various links. also include a brief description with a list of tools used */}
         </Grid>
       </Grid>
     </Container>
   </div>
 )}
 export default portfolio;
+{/**
+- consider 'pagination', cool ways to navigate from page to page
+*/}

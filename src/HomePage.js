@@ -58,6 +58,12 @@ return (
               Le portfolio
             </Link>
           </Button>
+          <Button size="small" color="primary">
+            <a href='https://docs.google.com/document/d/1qz9Qo_xlnGK4BvF6TUqJBfRB28xr-1p1lK_QK-7K16U/edit?pli=1'target='_blank'>
+              the resume
+            </a>
+          </Button>
+            {/**include a link to my resume right next to portfolio link, give them viewing access only */}
         </CardActions>
       </Card>
     </Paper>
