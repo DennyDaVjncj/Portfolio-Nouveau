@@ -1,12 +1,12 @@
 import React from 'react';
 import {Grid,Paper,Container} from '@material-ui/core';
-import thumbNail from './imagery/lOvSlC01.svg'
+import thumbNail from './imagery/reSizedGoku.jpg'
 
 let portfolio=()=>{
   return(
   <div>
     <Container maxWidth='sm'>
-      <Grid container spacing={9}>
+      <Grid container spacing={10}justify='space-around'>
         <Grid item xs={6}>
           <Paper>
             <a href='https://stormy-tundra-80286.herokuapp.com/?id=600ccffa14955b0015415ea5'><img src={thumbNail}/></a>
