@@ -1,7 +1,7 @@
 import React from 'react';
 import {Grid,Paper,Container} from '@material-ui/core';
 import thumbNail from './imagery/reSizedGoku.jpg'
-import iSpend from './imagery/iSpend.jpg';
+import iSpend from './imagery/iSpend.png';
 
 let portfolio=()=>{
   return(
@@ -21,7 +21,9 @@ let portfolio=()=>{
               <img src={iSpend}/>
             </a>
           </Paper>
-          {/**with image include a link to repo. consider use of card component to include various links. also include a brief description with a list of tools used */}
+          {/**with image include a link to repo. consider use of card component to include various links. also include a brief description with a list of tools used
+           * - content for prjct descript need a new line for placement beneath imagery
+           */}
         </Grid>
       </Grid>
     </Container>
