@@ -1,4 +1,4 @@
-# ☢ Reactive Portfolio - https://dennydavjncj.github.io/reactive-portfolio/#/
+# Portfolio Nouveau - https://dennydavjncj.github.io/reactive-portfolio/#/
 
 ![reactivePorfolio](https://user-images.githubusercontent.com/62162419/107902145-93d1e400-6f13-11eb-9fd9-598762e50cff.PNG)
 
