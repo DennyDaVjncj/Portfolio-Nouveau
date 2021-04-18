@@ -1,69 +1,11 @@
 /* consider having mltpl stylesheets for each page of site */
 
 /* this class sets the position for the text content on page */
-.centerContent {
-  margin-top:150px;    
-  border: solid 5px pink;
-  padding:9px;
-  color:white;
-}
-
-.Header{  
-  background-color: white;
+header{
+background:url(https://i.pinimg.com/564x/63/33/60/633360582af27d601bef353c9aba06b3.jpg);
 }
 
 body{
   background:url(https://i.pinimg.com/564x/63/33/60/633360582af27d601bef353c9aba06b3.jpg);    
-}/*set vh for diff componants on page*/
+}/*set vh for diff components on page*/
 
-h1{
-  color:white;
-  text-decoration:line-through;
-  top:5%;
-}
-
-header{
-  background:url(https://i.pinimg.com/564x/63/33/60/633360582af27d601bef353c9aba06b3.jpg);
-}
-
-.container{
-  margin:auto;    
-}
-
-.form-group{
-  width: 45%;
-}
-
-/*Contact*/
-/* Tried to change the color of the link, no avail */
-.cardLink{
-  background-color:white;
-}
-
-.floatRight{
-  float: right;
-}
-
-.a{
-  border: 3px solid white;
-}
-
-.container{
-  top:auto;
-}
-
-.contactForm{
-  margin:9%;
-}
-
-.strangeFruit{
-  margin-bottom:10rem;
-}
-.borderSoChic{
-  border: solid 9px black;
-
-}
-.translucentBlackground{
-  background-color:white;
-  opacity: .4;
-}
