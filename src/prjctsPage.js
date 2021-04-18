@@ -28,10 +28,7 @@ let portfolio=()=>{
                 <Spherical/>
               </a>
             </Paper>
-          </Grid>
-          {/**with image include a link to repo. consider use of card component to include various links. also include a brief description with a list of tools used
-           * - content for prjct descript need a new line for placement beneath imagery
-           */}
+          </Grid>          
         </Grid>
       </Grid>
     </Container>
@@ -40,4 +37,10 @@ let portfolio=()=>{
 export default portfolio;
 {/**
 - consider 'pagination', cool ways to navigate from page to page
+- with image include a link to repo. consider use of card component to include various links
 */}
+
+
+{/**. also include a brief description with a list of tools used
+           * - content for prjct descript need a new line for placement beneath imagery
+           */}

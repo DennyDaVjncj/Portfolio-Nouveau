@@ -49,21 +49,30 @@ return (
         </CardActionArea>
         <CardActions>
           <Button size="small" color="primary">
-            <a href='mailto: daVjncjCode@gmail.com'>
-              email me!
-            </a>
-          </Button>
-          <Button size="small" color="primary">
             <Link to='/portfolio'>
               Le portfolio
             </Link>
+          </Button>
+          <Button size="small" color="primary">
+            <a href='https://github.com/DennyDaVjncj'target='_blank'>
+              Github
+            </a>
           </Button>
           <Button size="small" color="primary">
             <a href='https://docs.google.com/document/d/1qz9Qo_xlnGK4BvF6TUqJBfRB28xr-1p1lK_QK-7K16U/edit?pli=1'target='_blank'>
               the resume
             </a>
           </Button>
-            {/**include a link to my resume right next to portfolio link, give them viewing access only */}
+          <Button size="small" color="primary">
+            <a href='https://www.linkedin.com/in/ambiguousambition/'target='_blank'>
+              LinkedIn
+            </a>
+          </Button>          
+          <Button size="small" color="primary">
+            <a href='mailto: daVjncjCode@gmail.com'>
+              email me!
+            </a>
+          </Button>          
         </CardActions>
       </Card>
     </Paper>
