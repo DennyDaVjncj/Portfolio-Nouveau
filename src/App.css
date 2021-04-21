@@ -11,11 +11,13 @@ body{
 
 .div{
   position:absolute;
+  display:flex;
+  justify-content:space-between;
   /* set view height */
   /* consider animated effects */
 }
 
 .global{
 position:relative;
-height: 50px;
+height: 25vh;
 }
