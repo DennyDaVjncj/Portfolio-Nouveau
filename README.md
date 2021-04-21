@@ -1,10 +1,8 @@
-# Portfolio Nouveau - https://dennydavjncj.github.io/reactive-portfolio/#/
-
-![reactivePorfolio](https://user-images.githubusercontent.com/62162419/107902145-93d1e400-6f13-11eb-9fd9-598762e50cff.PNG)
+# Portfolio Nouveau
 
 ## Features:
 
-* Updated portfolio featuring 6 total projects
+* Updated portfolio featuring 3 total projects
 
 * Uses React
 
