@@ -40,9 +40,11 @@ let portfolio=()=>{
                 </a>
               </Button>
             </CardActions>
-          </Card>          
-          
+          </Card>         
         </Grid>
+
+        <Grid
+        
         {/* <Grid item xs={4}>
           <Paper>
             <a href='https://agile-headland-12732.herokuapp.com/'target='_blank'>
