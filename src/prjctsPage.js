@@ -30,10 +30,14 @@ let portfolio=()=>{
             </CardActionArea>
             <CardActions>
               <Button size='small'color='primary'>
-                Deployed app
+                <a href='https://stormy-tundra-80286.herokuapp.com/?id=600ccffa14955b0015415ea5'target='_blank'>
+                  Deployed app
+                </a>
               </Button>
               <Button size='small'color='primary'>
-                Explore the repository
+                <a href='https://github.com/DennyDaVjncj/circuitTrainingTracker'target='_blank'>
+                  le repository
+                </a>
               </Button>
             </CardActions>
           </Card>          
@@ -46,10 +50,12 @@ let portfolio=()=>{
             </a>
           </Paper>
         </Grid> */}
-          <Grid item xs={4}>            
-            <a href='https://theNewCool.org'target='_blank'>
-              <img src={Earth}/>
-            </a>            
+          <Grid item xs={4}>
+            <div>
+              <a href='https://theNewCool.org'target='_blank'>
+                <img src={Earth}/>
+              </a>{/*give div a universe type background to give icon 'floating in interdimension' feel */}
+            </div>          
           </Grid>          
         
       </Grid>
