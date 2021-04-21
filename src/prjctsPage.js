@@ -1,35 +1,63 @@
 import React from 'react';
-import {Grid,Paper,Container} from '@material-ui/core';
-import workoutTracker from './imagery/reSizedGoku.jpg'
+import {Grid,Paper,Container,CardContent,Typography,Card,CardActionArea,CardActions,CardMedia,Button, makeStyles} from '@material-ui/core';
+import workoutTracker from './imagery/reSizedGoku.jpg';
 import iSpend from './imagery/iSpend.png';
-import {ReactComponent as Spherical} from './imagery/globeIconSVG.svg';
+import Earth from './imagery/earth.png';
+
+let useStyles=makeStyles({
+  root:{
+    maxWidth:400
+  }
+})
 
 let portfolio=()=>{
   return(
-  <div>
+  <div className='div'>
     <Container maxWidth='sm'>{/**showcase credentials */}
-      <Grid container spacing={10}justify='space-around'>
-        <Grid item xs={4}>
-          <Paper>
-            <a href='https://stormy-tundra-80286.herokuapp.com/?id=600ccffa14955b0015415ea5'>
-              <img src={workoutTracker}/>
-            </a>
-          </Paper>
+      <Grid container spacing={10}>
+        <Grid item xs={8}>
+          <Card>
+            <CardActionArea>
+              <CardMedia component='img'alt='Goku getting it in'height='250'image={workoutTracker}title='Circuit training tracker'/>       
+              <CardContent>
+                <Typography gutterBottom variant='h4'component='h2'>
+                  Circuit Training Tracker
+                </Typography>{/**add in tools used to build app */}
+                <Typography variant='body2'color='textSecondary'component='p'>
+                  This app is designed to help folks serious about their fitness track their progress/regression
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Button size='small'color='primary'>
+                <a href='https://stormy-tundra-80286.herokuapp.com/?id=600ccffa14955b0015415ea5'target='_blank'>
+                  Deployed app
+                </a>
+              </Button>
+              <Button size='small'color='primary'>
+                <a href='https://github.com/DennyDaVjncj/circuitTrainingTracker'target='_blank'>
+                  le repository
+                </a>
+              </Button>
+            </CardActions>
+          </Card>          
+          
         </Grid>
-        <Grid item xs={4}>
+        {/* <Grid item xs={4}>
           <Paper>
             <a href='https://agile-headland-12732.herokuapp.com/'target='_blank'>
               <img src={iSpend}/>
-            </a>{/**consider using a filled out card component to render prjct icons */}
+            </a>
           </Paper>
+        </Grid> */}
           <Grid item xs={4}>
-            <Paper>
+            <div>
               <a href='https://theNewCool.org'target='_blank'>
-                <Spherical/>
-              </a>
-            </Paper>
+                <img src={Earth}/>
+              </a>{/*give div a universe type background to give icon 'floating in interdimension' feel */}
+            </div>          
           </Grid>          
-        </Grid>
+        
       </Grid>
     </Container>
   </div>
