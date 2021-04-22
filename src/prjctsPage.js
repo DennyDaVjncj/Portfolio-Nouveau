@@ -52,12 +52,23 @@ let portfolio=()=>{
           <div>
             <Card>
               <CardActionArea>
-                <CardMedia component='img'image={Peacock}alt='a peacock'>
-                  <a href='https://theNewCool.org'target='_blank'>
-                    <img className='global' src={Peacock}/>
-                  </a>
-                </CardMedia>
+                <CardMedia component='img'image={Peacock}alt='a peacock'title='the New Cool, eCommerce site'/>
+                <CardContent>
+                  <Typography gutterBottom variant='h4'component='h2'>
+                    the New Cool
+                  </Typography>
+                  <Typography variant='body2'color='textSecondary'component='p'>
+                    the New Cool is an eCommerce site where a visitor can read an article on a variety of interesting topics, watch Cool content & even buy amazing fashion peices 
+                  </Typography>
+                </CardContent> 
               </CardActionArea>
+              <CardActions>
+                <Button size='small'color='primary'>
+                  <a href='https://theNewCool.org'target='_blank'>
+                    Deployed App
+                  </a>
+                </Button>
+              </CardActions>
             </Card>
           </div>          
         </Grid>     
