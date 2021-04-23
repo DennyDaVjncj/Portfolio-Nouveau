@@ -2,7 +2,7 @@ import React from 'react';
 import {Grid,Paper,Container,CardContent,Typography,Card,CardActionArea,CardActions,CardMedia,Button,makeStyles} from '@material-ui/core';
 import workoutTracker from './imagery/reSizedGoku.jpg';
 import iSpend from './imagery/iSpend.png';
-import Peacock from './imagery/peacock.svg';
+import TNC from './imagery/coolWorld.png';
 
 let useStyles=makeStyles({
   root:{
@@ -48,11 +48,13 @@ let portfolio=()=>{
           </Paper>
         </Grid>
 
-        <Grid item xs={5}>
+        <Grid item xs={7}>
           <div>
             <Card>
               <CardActionArea>
-                <CardMedia component='img'image={Peacock}alt='a peacock'title='the New Cool, eCommerce site'/>
+                <Paper elevation={9}>
+                  <CardMedia component='img'image={TNC}alt='a peacock'title='the New Cool, eCommerce site'/>
+                </Paper>
                 <CardContent>
                   <Typography gutterBottom variant='h4'component='h2'>
                     the New Cool
