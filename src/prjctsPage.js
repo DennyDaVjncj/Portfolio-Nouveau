@@ -14,12 +14,12 @@ let useStyles=makeStyles({
 let portfolio=()=>{
   return(
   <div>    
-    <Grid container spacing={3}display='row'justify='space-evenly'alignContent='flex-end'>
+    <Grid container spacing={10}display='row'justify='space-around'alignContent='flex-end'>
       <Grid item xs>
         <Paper elevation={24}>
           <Card>
             <CardActionArea>
-              <Paper elevation={9}>
+              <Paper elevation={24}>
                 <CardMedia component='img'alt='Goku getting it in'image={workoutTracker}title='Circuit training tracker'/>
               </Paper>
               <CardContent>
