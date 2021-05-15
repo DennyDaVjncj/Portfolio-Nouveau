@@ -9,18 +9,20 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import {blue,red} from '@material-ui/core/colors'
 import Paper from '@material-ui/core/Paper'
-import photo from './portfolioPic.jpg'
+import Selfie from './portfolioPic.jpg'
 import {Link} from 'react-router-dom'
 import AspectRatioSharpIcon from '@material-ui/icons/AspectRatioSharp';
-import Grid from '@material-ui/core/Grid'
+import Grid from '@material-ui/core/Grid';
 
 const useStyles=makeStyles({
     root:{
         opacity:.4,
-        maxWidth:500        
+        maxWidth:500,
+        display:'flex',
+        justifyContent:'center'   
     },   
     media:{
-        height:499
+        height:500        
     }
 });
 export default function MediaCard(){
@@ -29,12 +31,12 @@ export default function MediaCard(){
 return (
   <div className={classes.root}>
     <Grid container>
-      <Grid item xs>
-        <Card>{/**place arrows && frame around cardComponent */}
+      <Grid className='positioned' item xs>
+        <Card>
           <CardActionArea>
             <CardMedia
-              className={classes.media}
-              image={photo}
+              className={classes.media}              
+              image={Selfie}
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
