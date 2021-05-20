@@ -2,6 +2,8 @@
 
 ## Features:
 
+REPO MUST BE DOWNLOADED & DEPLOYED LOCALLY, WORKING TO HAVE A DEPLOYED LINK
+
 * Updated portfolio featuring 3 total projects
 
 * Uses React
