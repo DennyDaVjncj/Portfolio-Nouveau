@@ -1,15 +1,13 @@
-# Portfolio Nouveau
+# 👨‍💻 Portfolio Nouveau
 
 ## Features:
 
-REPO MUST BE DOWNLOADED & DEPLOYED LOCALLY, WORKING TO HAVE A DEPLOYED LINK
+* Updated portfolio featuring 3 projects
 
-* Updated portfolio featuring 3 total projects
+* Uses React, composed 100% with material-ui
 
-* Uses React
+* A `Header` component that appears on multiple pages
 
-* A `Header` component that appears on multiple pages 
-
-* Navigation with React Router, dynamic rendering, or another third part router
+* Navigation with React Router & dynamic rendering
 
 * Leads to a polished github repository featuring a deployed link
