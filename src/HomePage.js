@@ -19,7 +19,7 @@ const useStyles=makeStyles({
         opacity:.4,
         maxWidth:500,
         display:'flex',
-        justifyContent:'center'   
+        justify:'center'   
     },   
     media:{
         height:500        
@@ -31,7 +31,7 @@ export default function MediaCard(){
 return (
   <div className={classes.root}>
     <Grid container>
-      <Grid className='positioned' item xs>
+      <Grid item xs>
         <Card>
           <CardActionArea>
             <CardMedia
