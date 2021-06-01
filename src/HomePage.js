@@ -38,7 +38,7 @@ return (
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Denny da Vjncj (Dennis Desmornes)
+                Dennis Desmornes (Denny da Vjncj)
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
                 Software engineering has become a serious passion & professional ambition due to the creative nature involved in finding solutions
