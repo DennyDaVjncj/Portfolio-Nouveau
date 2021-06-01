@@ -17,25 +17,20 @@ import Grid from '@material-ui/core/Grid';
 const useStyles=makeStyles({
     root:{
         opacity:.4,
-        maxWidth:500,
-        display:'flex',
-        justify:'center'   
+        maxWidth:500           
     },   
     media:{
         height:500        
     }
 });
-export default function MediaCard(){
-    const classes=useStyles();
-
+const HomePage=()=>{    
 return (
-  <div className={classes.root}>
-    <Grid container>
+  <div>
+    <Grid container display='row'justify='center'>
       <Grid item xs>
         <Card>
           <CardActionArea>
-            <CardMedia
-              className={classes.media}              
+            <CardMedia                    
               image={Selfie}
             />
             <CardContent>
@@ -80,3 +75,4 @@ return (
   </div>
   );
 }
+export default HomePage;
