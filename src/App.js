@@ -8,7 +8,7 @@ function App() {
     <Router basename="/">
       <ProminentAppBar/>
       <Switch>
-        <Route exact path='/' component={MediaCard}/> 
+         {/*navigation needed for homepage  */}
         <Route exact path='/portfolio'component={SpacingGrid}/>      
       </Switch>
     </Router>
