@@ -39,28 +39,14 @@ export default function ProminentAppBar() {
   return (
     <div className={classes.root}>
       <AppBar position="static"className='Header'>
-        <Toolbar className={classes.toolbar}>
-          {/* <IconButton
-            edge="start"
-            className={classes.menuButton}
-            color="inherit"
-            aria-label="open drawer"
-          >
-            <MenuIcon />
-          </IconButton> */}
+        <Toolbar className={classes.toolbar}>          
           <Button className={classes.title}variant='text'>
             <Link to='/'>
               <Typography variant="h5" noWrap>
                 le da Vjncj code
               </Typography>
             </Link>
-          </Button>
-          {/* <IconButton aria-label="search" color="inherit">
-            <SearchIcon />
-          </IconButton>
-          <IconButton aria-label="display more actions" edge="end" color="inherit">
-            <MoreIcon />
-          </IconButton> */}
+          </Button>          
         </Toolbar>
       </AppBar>
     </div>
