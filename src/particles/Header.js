@@ -40,14 +40,14 @@ export default function ProminentAppBar() {
     <div className={classes.root}>
       <AppBar position="static"className='Header'>
         <Toolbar className={classes.toolbar}>
-          <IconButton
+          {/* <IconButton
             edge="start"
             className={classes.menuButton}
             color="inherit"
             aria-label="open drawer"
           >
             <MenuIcon />
-          </IconButton>
+          </IconButton> */}
           <Button className={classes.title}variant='text'>
             <Link to='/'>
               <Typography variant="h5" noWrap>
@@ -55,12 +55,12 @@ export default function ProminentAppBar() {
               </Typography>
             </Link>
           </Button>
-          <IconButton aria-label="search" color="inherit">
+          {/* <IconButton aria-label="search" color="inherit">
             <SearchIcon />
           </IconButton>
           <IconButton aria-label="display more actions" edge="end" color="inherit">
             <MoreIcon />
-          </IconButton>
+          </IconButton> */}
         </Toolbar>
       </AppBar>
     </div>
