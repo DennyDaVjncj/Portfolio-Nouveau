@@ -24,12 +24,12 @@ let homePage=()=>{
                             </CardActionArea>
                             <CardActions>
                                 <Button size='small'color='inherit'>
-                                    <Link to='/portfolio'>
+                                    <Link to='./portfolio'>
                                         Le Portfolio
                                     </Link>
                                 </Button>
                                 <Button size='small'color='inherit'>
-                                    <Link href='https://github.com'>
+                                    <Link href='https://github.com/DennyDaVjncj'target='_blank'>
                                         GitHub
                                     </Link>
                                 </Button>
