@@ -6,7 +6,7 @@ import iSpend from './imagery/iSpend.svg';
 
 let Portfolio=()=>{
   return(
-  <div>    
+  <div>{/* update imagery styling */}
     <Grid container spacing={10}display='row'justify='space-around'alignContent='flex-end'>
       <Grid item xs>
           <Card>

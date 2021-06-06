@@ -21,7 +21,7 @@ let HomePage=()=>{
             <Container maxWidth='sm'>
                 <Grid container display='column'alignItems='center'>
                     <Grid item xs>                        
-                        <Card>
+                        <Card>{/*update width & view height of card*/}
                             <CardActionArea>
                                 <Paper elevation={20}>
                                     <CardMedia component='img'alt='a fine portrait of thine own visage'image={Portrait}title='Dennis Desmornes (Denny da Vjncj)'/>
