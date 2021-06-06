@@ -40,7 +40,7 @@ let homePage=()=>{
                                 </Button>
                                 {/* address version control */}
                             </CardActions>
-                        </Card>                        
+                        </Card>               
                     </Grid>
                 </Grid>
             </Container>
