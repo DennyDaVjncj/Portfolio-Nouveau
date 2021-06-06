@@ -4,19 +4,11 @@ import workoutTracker from './imagery/reSizedGoku.jpg';
 import TNC from './imagery/coolWorld.png';
 import iSpend from './imagery/iSpend.svg';
 
-let useStyles=makeStyles({
-  root:{
-    height:400,
-    maxWidth:400
-  }
-});
-
-let portfolio=()=>{
+let Portfolio=()=>{
   return(
   <div>    
     <Grid container spacing={10}display='row'justify='space-around'alignContent='flex-end'>
       <Grid item xs>
-        <Paper elevation={24}>
           <Card>
             <CardActionArea>
               <Paper elevation={24}>
@@ -44,7 +36,6 @@ let portfolio=()=>{
               </Button>
             </CardActions>
           </Card>
-        </Paper>
       </Grid>
       <Grid item xs>          
         <Card>
@@ -102,4 +93,4 @@ let portfolio=()=>{
     </Grid>    
   </div>
 )}
-export default portfolio;
+export default Portfolio;
