@@ -17,7 +17,7 @@ import Container from '@material-ui/core/Container'
 
 let HomePage=()=>{
     return(
-        <div>
+        <div className='enlightenedElement'>
             <Container maxWidth='sm'>
                 <Grid container display='column'alignItems='center'>
                     <Grid item xs>                        
@@ -36,22 +36,31 @@ let HomePage=()=>{
                                 </CardContent>
                             </CardActionArea>
                             <CardActions>
-                                <Button size='small'color='inherit'>
+                                <Button size='medium'color='inherit'>
                                     <Link to='./portfolio'>
                                         Le Portfolio
                                     </Link>
                                 </Button>
-                                <Button size='small'color='inherit'>
+                                <Button size='medium'color='inherit'>
                                     <a href='https://github.com/DennyDaVjncj'target='_blank'>
                                         GitHub
                                     </a>
                                 </Button>
-                                <Button size='small'color='inherit'>
+                                <Button size='medium'color='primary'>
+                                    <a href='https://www.linkedin.com/in/ambiguousambition/'target='_blank'>
+                                        LinkedIn
+                                    </a>
+                                </Button>
+                                <Button size='medium'color='inherit'>
                                     <a href='https://docs.google.com/document/d/1m1zEn6LABR0NyUbHnI7u6tkg-_SB9-HPY1yprxO48OM/edit#heading=h.kjltg4y8htb'target='_blank'>
                                         Mine Resume
                                     </a>
                                 </Button>
-                                {/* address version control */}
+                                <Button size='medium'color='secondary'>
+                                    <a href='mailto:daVjncjCode@gmail.com'>
+                                        eMail me!
+                                    </a>
+                                </Button>
                             </CardActions>
                         </Card>               
                     </Grid>
