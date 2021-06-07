@@ -44,7 +44,7 @@ export default function ProminentAppBar() {
             <Link to='/'>
               <Typography variant="h5" noWrap>
                 le da Vjncj code
-              </Typography>
+              </Typography>{/*update font style*/}
             </Link>
           </Button>
         </Toolbar>
