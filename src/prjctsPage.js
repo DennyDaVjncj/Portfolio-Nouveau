@@ -16,10 +16,10 @@ let Portfolio=()=>{
                   <CardMedia component='img'alt='Goku getting it in'image={workoutTracker}title='Circuit training tracker'/>
                 </Paper>
                 <CardContent>
-                  <Typography gutterBottom variant='h5'component='h5'>
+                  <Typography gutterBottom variant='h4'component='h4'>
                     Circuit Training Tracker
                   </Typography>{/**add in tools used to build app */}
-                  <Typography variant='body2'color='textSecondary'component='p'>
+                  <Typography variant='body1'color='textPrimary'component='p'>
                     This app is designed to help folks serious about their fitness track their progress/regression
                   </Typography>
                 </CardContent>
@@ -45,10 +45,10 @@ let Portfolio=()=>{
                 <CardMedia component='img'image={TNC}alt='a peacock'title='the New Cool, eCommerce site'/>
               </Paper>
               <CardContent>
-                <Typography gutterBottom variant='h5'component='h5'>
+                <Typography gutterBottom variant='h4'component='h4'>
                   the New Cool
                 </Typography>
-                <Typography variant='body2'color='textSecondary'component='p'>
+                <Typography variant='body1'color='textPrimary'component='p'>
                   the New Cool is an eCommerce site where a visitor can read an article on a variety of interesting topics, watch Cool content & even buy amazing fashion peices 
                 </Typography>
               </CardContent> 
@@ -69,10 +69,10 @@ let Portfolio=()=>{
                 <CardMedia component='img'image={iSpend}alt='a wallet with money potruding'/>
               </Paper>
               <CardContent>
-                <Typography gutterBottom variant='h5'component='h5'>
+                <Typography gutterBottom variant='h4'component='h4'>
                   iSpend.pwa
                 </Typography>
-                <Typography variant='body2'color='textSecondary'component='p'>
+                <Typography variant='body1'color='textPrimary'component='p'>
                   Your personal finance tracker; maintain a transactional ledger, on & offline
                 </Typography>
               </CardContent>
