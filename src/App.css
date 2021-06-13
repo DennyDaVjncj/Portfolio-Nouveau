@@ -12,3 +12,7 @@ body{
 .enlightenedElement{
   opacity:0.5;
 }
+
+.viewHeightManipulation{
+  height:66vh
+}

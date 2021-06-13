@@ -17,7 +17,7 @@ import Container from '@material-ui/core/Container'
 
 let HomePage=()=>{
     return(
-        <div className='enlightenedElement'>
+        <div className='enlightenedElement viewHeightManipulation'>
             <Container maxWidth='sm'>
                 <Grid container display='column'alignItems='center'>
                     <Grid item xs>                        
