@@ -1,5 +1,4 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
@@ -14,16 +13,18 @@ import {Link} from 'react-router-dom'
 import AspectRatioSharpIcon from '@material-ui/icons/AspectRatioSharp';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container'
+// import classNames from 'classnames'
+
 
 let HomePage=()=>{
     return(
-        <div className='enlightenedElement viewHeightManipulation'>
+        <div classNames='enlightenedDiv maxWide'>
             <Container maxWidth='sm'>
                 <Grid container display='column'alignItems='center'>
                     <Grid item xs>                        
-                        <Card>{/*update width & view height of card*/}
+                        <Card>
                             <CardActionArea>
-                                <Paper elevation={20}>
+                                <Paper elevation={24}>
                                     <CardMedia component='img'alt='a fine portrait of thine own visage'image={Portrait}title='Dennis Desmornes (Denny da Vjncj)'/>
                                 </Paper>
                                 <CardContent>
@@ -52,7 +53,7 @@ let HomePage=()=>{
                                     </a>
                                 </Button>
                                 <Button size='medium'color='inherit'>
-                                    <a href='https://docs.google.com/document/d/1m1zEn6LABR0NyUbHnI7u6tkg-_SB9-HPY1yprxO48OM/edit#heading=h.kjltg4y8htb'target='_blank'>
+                                    <a href='https://docs.google.com/document/d/1P3Gm_DYJq_YDKver0KzaIjvqlq17N-DetvetCOFl9HE/edit#'target='_blank'>
                                         Mine Resume
                                     </a>
                                 </Button>
