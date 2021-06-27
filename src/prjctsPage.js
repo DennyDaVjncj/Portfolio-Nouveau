@@ -3,6 +3,13 @@ import {Grid,Paper,Container,CardContent,Typography,Card,CardActionArea,CardActi
 import workoutTracker from './imagery/reSizedGoku.jpg';
 import TNC from './imagery/coolWorld.png';
 import iSpend from './imagery/iSpend.svg';
+import Collapse from '@material-ui/core/Collapse';
+import Avatar from '@material-ui/core/Avatar';
+import IconButton from '@material-ui/core/IconButton';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import MoreVertIcon from '@material-ui/icons/MoreVert';
+import CardHeader from '@material-ui/core/CardHeader';
+import {red}from'@material-ui/core/colors';
 
 let Portfolio=()=>{
   return(
@@ -11,14 +18,18 @@ let Portfolio=()=>{
       <Grid container spacing={10}display='row'justify='space-around'alignContent='flex-end'>
         <Grid item xs>
             <Card>
+              <CardHeader avatar={
+                <Avatar aria-label='App composition'>
+                  v
+                </Avatar>
+              }              
+              title='Circuit Training Tracker'
+              subheader='Now'/>
               <CardActionArea>
                 <Paper elevation={24}>
                   <CardMedia component='img'alt='Goku getting it in'image={workoutTracker}title='Circuit training tracker'/>
                 </Paper>
-                <CardContent>
-                  <Typography gutterBottom variant='h4'component='h4'>
-                    Circuit Training Tracker
-                  </Typography>{/**add in tools used to build app */}
+                <CardContent>                  
                   <Typography variant='body1'color='textPrimary'component='p'>
                     This app is designed to help folks serious about their fitness track their progress/regression
                   </Typography>
@@ -35,6 +46,9 @@ let Portfolio=()=>{
                     le repository
                   </a>
                 </Button>
+                <IconButton>
+                  <ExpandMoreIcon/>
+                </IconButton>
               </CardActions>
             </Card>
         </Grid>
