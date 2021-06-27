@@ -18,7 +18,7 @@ import Container from '@material-ui/core/Container'
 
 let HomePage=()=>{
     return(
-        <div classNames='enlightenedDiv maxWide'>
+        <div className='enlightenedDiv'>
             <Container maxWidth='sm'>
                 <Grid container display='column'alignItems='center'>
                     <Grid item xs>                        
