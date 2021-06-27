@@ -9,6 +9,8 @@ body{
   background:url(https://i.pinimg.com/564x/63/33/60/633360582af27d601bef353c9aba06b3.jpg);    
 }/*set vh for diff components on page*/
 
-.enlightenedElement{
+.enlightenedDiv{
   opacity:0.5;
+  max-width:100%;
+  margin:auto;
 }
