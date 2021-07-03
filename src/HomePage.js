@@ -13,8 +13,6 @@ import {Link} from 'react-router-dom'
 import AspectRatioSharpIcon from '@material-ui/icons/AspectRatioSharp';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container'
-// import classNames from 'classnames'
-
 
 let HomePage=()=>{
     return(
