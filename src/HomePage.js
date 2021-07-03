@@ -36,7 +36,7 @@ let HomePage=()=>{
                             </CardActionArea>
                             <CardActions>
                                 <Button size='medium'color='inherit'>
-                                    <Link to='./portfolio'>
+                                    <Link to='/portfolio'>
                                         Le Portfolio
                                     </Link>
                                 </Button>
