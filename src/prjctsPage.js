@@ -16,7 +16,7 @@ let Portfolio=()=>{
   <div className='enlightenedDiv'>
     <Container>
       <Grid container spacing={10}display='row'justify='space-around'alignContent='flex-end'>
-        <Grid item xs>
+        <Grid item lg>
             <Card>
               <CardHeader avatar={
                 <Avatar aria-label='App composition'>
