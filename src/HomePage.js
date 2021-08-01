@@ -19,8 +19,8 @@ let HomePage=()=>{
         <div className='enlightenedDiv'>
             <Container maxWidth='lg'>
                 <Grid container display='column'alignItems='center'>
-                    <Grid item xs>                        
-                        <Card>
+                    <Grid item xs>                    
+                        <Card className='viewHeight'>
                             <CardActionArea>
                                 <Paper elevation={24}>
                                     <CardMedia component='img'alt='a fine portrait of thine own visage'image={Portrait}title='Dennis Desmornes (Denny da Vjncj)'/>
