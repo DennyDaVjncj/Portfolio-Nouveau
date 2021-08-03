@@ -6,13 +6,13 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import {blue,red} from '@material-ui/core/colors'
-import Paper from '@material-ui/core/Paper'
-import Portrait from './portfolioPic.jpg'
-import {Link} from 'react-router-dom'
+import {blue,red} from '@material-ui/core/colors';
+import Paper from '@material-ui/core/Paper';
+import Portrait from './imagery/portfolioPic.jpg';
+import {Link} from 'react-router-dom';
 import AspectRatioSharpIcon from '@material-ui/icons/AspectRatioSharp';
 import Grid from '@material-ui/core/Grid';
-import Container from '@material-ui/core/Container'
+import Container from '@material-ui/core/Container';
 
 let HomePage=()=>{
     return(
