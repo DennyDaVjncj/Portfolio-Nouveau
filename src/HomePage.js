@@ -6,21 +6,21 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import {blue,red} from '@material-ui/core/colors'
-import Paper from '@material-ui/core/Paper'
-import Portrait from './portfolioPic.jpg'
-import {Link} from 'react-router-dom'
+import {blue,red} from '@material-ui/core/colors';
+import Paper from '@material-ui/core/Paper';
+import Portrait from './imagery/portfolioPic.jpg';
+import {Link} from 'react-router-dom';
 import AspectRatioSharpIcon from '@material-ui/icons/AspectRatioSharp';
 import Grid from '@material-ui/core/Grid';
-import Container from '@material-ui/core/Container'
+import Container from '@material-ui/core/Container';
 
 let HomePage=()=>{
     return(
         <div className='enlightenedDiv'>
-            <Container maxWidth='sm'>
+            <Container maxWidth='lg'>
                 <Grid container display='column'alignItems='center'>
-                    <Grid item xs>                        
-                        <Card>
+                    <Grid item xs>                    
+                        <Card className='viewHeight'>
                             <CardActionArea>
                                 <Paper elevation={24}>
                                     <CardMedia component='img'alt='a fine portrait of thine own visage'image={Portrait}title='Dennis Desmornes (Denny da Vjncj)'/>
@@ -34,7 +34,7 @@ let HomePage=()=>{
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-                            <CardActions>
+                            <CardActions justify='center'>
                                 <Button size='medium'color='inherit'>
                                     <Link to='/portfolio'>
                                         Le Portfolio

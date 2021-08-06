@@ -1,16 +1,19 @@
 /* consider having mltpl stylesheets for each page of site */
 
 /* this class sets the position for the text content on page */
-header{
-background:url(https://i.pinimg.com/564x/63/33/60/633360582af27d601bef353c9aba06b3.jpg);
-}
-
 body{
   background:url(https://i.pinimg.com/564x/63/33/60/633360582af27d601bef353c9aba06b3.jpg);    
 }/*set vh for diff components on page*/
-
 .enlightenedDiv{
   opacity:0.5;
   max-width:100%;
   margin:auto;
+}
+.aLittleMargin{
+  margin-top:45px;
+}
+.omniHeadPositioning{
+  display:flex;
+  justify-content:center;
+  font-family: 'Dancing Script', cursive;
 }
