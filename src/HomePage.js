@@ -34,7 +34,7 @@ let HomePage=()=>{
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-                            <CardActions>
+                            <CardActions justify='center'>
                                 <Button size='medium'color='inherit'>
                                     <Link to='/portfolio'>
                                         Le Portfolio
