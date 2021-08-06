@@ -14,17 +14,17 @@ import {red}from'@material-ui/core/colors';
 let Portfolio=()=>{
   return(
   <div className='enlightenedDiv'>
-    <Container>
+    <Container className='aLittleMargin'>
       <Grid container spacing={10}display='row'justify='space-around'alignContent='flex-end'>
         <Grid item lg>
             <Card>
               <CardHeader avatar={
                 <Avatar aria-label='App composition'>
-                  v
+                  CTT
                 </Avatar>
-              }              
+              }             
               title='Circuit Training Tracker'
-              subheader='Now'/>
+              subheader='Health the aim, sexy the motivation'/>
               <CardActionArea>
                 <Paper elevation={24}>
                   <CardMedia component='img'alt='Goku getting it in'image={workoutTracker}title='Circuit training tracker'/>
@@ -52,18 +52,25 @@ let Portfolio=()=>{
               </CardActions>
             </Card>
         </Grid>
-        <Grid item xs>          
+        <Grid item xs>         
           <Card>
+              <CardHeader avatar={
+                <Avatar aria-label='App composition'>
+                  TNC
+                </Avatar>
+              }             
+              title='the New Cool'
+              subheader='All your desires, all in one place'/>
             <CardActionArea>
-              <Paper elevation={9}>
-                <CardMedia component='img'image={TNC}alt='a peacock'title='the New Cool, eCommerce site'/>
+              <Paper elevation={24}>
+                <CardMedia component='img'image={TNC}alt='a globe wearing shades'title='the New Cool, eCommerce site'/>
               </Paper>
               <CardContent>
                 <Typography gutterBottom variant='h4'component='h4'>
                   the New Cool
                 </Typography>
                 <Typography variant='body1'color='textPrimary'component='p'>
-                  the New Cool is an eCommerce site where a visitor can read an article on a variety of interesting topics, watch Cool content & even buy amazing fashion peices 
+                Find content, great fashion, tech gadgets & housewares! All of that all in one place: the New Cool. We're constantly looking for ways to add more value to our visitors and keep you wanting more. We hope you enjoy and tell everyone you know about us, thank you in advance! 
                 </Typography>
               </CardContent> 
             </CardActionArea>
@@ -73,13 +80,23 @@ let Portfolio=()=>{
                   Deployed App
                 </a>
               </Button>
+              <IconButton>
+                <ExpandMoreIcon/>
+              </IconButton>
             </CardActions>
           </Card>                    
         </Grid>
         <Grid item xs>
           <Card>
+          <CardHeader avatar={
+                <Avatar aria-label='App composition'>
+                  iSP
+                </Avatar>
+              }             
+              title='iSpend.pwa'
+              subheader='A penny saved...'/>
             <CardActionArea>
-              <Paper elevation={9}>
+              <Paper elevation={24}>
                 <CardMedia component='img'image={iSpend}alt='a wallet with money potruding'/>
               </Paper>
               <CardContent>
@@ -102,6 +119,9 @@ let Portfolio=()=>{
                   Le Repository
                 </a>
               </Button>
+              <IconButton>
+                <ExpandMoreIcon/>
+              </IconButton>
             </CardActions>
           </Card>
         </Grid>      
