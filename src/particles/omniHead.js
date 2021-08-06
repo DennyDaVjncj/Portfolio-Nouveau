@@ -14,9 +14,9 @@ let OmniHead=()=>{
   return(
     <div>
       <Container maxWidth='lg'>
-        <Grid container display='row'justify='center'alignContent='flex-start'>
+        <Grid container>
           <Grid item md>
-            <Typography variant='h1'component='h1'>
+            <Typography variant='h3'component='h3'className='omniHeadPositioning'>
               Le da Vjncj code
             </Typography>
           </Grid>
