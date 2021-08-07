@@ -45,10 +45,10 @@ let Portfolio=()=>{
                   <a href='https://github.com/DennyDaVjncj/circuitTrainingTracker'target='_blank'>
                     le repository
                   </a>
-                </Button>
-                <IconButton>
-                  <ExpandMoreIcon/>
-                </IconButton>
+                </Button>                                
+                  <IconButton>
+                    <ExpandMoreIcon/>
+                  </IconButton>
               </CardActions>
             </Card>
         </Grid>
