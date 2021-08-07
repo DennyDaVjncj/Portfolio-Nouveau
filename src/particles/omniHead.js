@@ -16,9 +16,11 @@ let OmniHead=()=>{
       <Container maxWidth='lg'>
         <Grid container>
           <Grid item md>
-            <Typography variant='h3'component='h3'className='omniHeadPositioning'>
-              Le da Vjncj code
-            </Typography>
+            <Link to='/'>
+              <Typography variant='h3'component='h3'className='omniHeadPositioning'>
+                Le da Vjncj code
+              </Typography>
+            </Link>
           </Grid>
         </Grid>
       </Container>
