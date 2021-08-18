@@ -12,8 +12,8 @@ body{
 .aLittleMargin{
   margin-top:45px;
 }
-.omniHeadPositioning{
+.omniHead{
   display:flex;
   justify-content:center;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', cursive;  
 }
